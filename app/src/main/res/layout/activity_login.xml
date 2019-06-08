@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorPrimaryDark"
+    >
+
+    <TextView
+        android:id="@+id/label_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_title"
+        android:textColor="@color/colorText"
+        android:textSize="48sp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_below="@id/label_app_name"
+        android:layout_width="350dp"
+        android:layout_height="440dp"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true">
+
+        <include
+            android:id="@+id/login_layout"
+            layout="@layout/login_layout"
+            android:layout_width="350dp"
+            android:layout_height="310dp"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <include
+            android:id="@+id/register_layout"
+            layout="@layout/register_layout"
+            android:layout_width="350dp"
+            android:layout_height="390dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:visibility="invisible"
+
+            />
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/relative_layout2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="-1dip"
+            >
+
+
+            <ImageView
+                android:id="@+id/button_circle"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/oval_blue"/>
+
+            <TextView
+                android:id="@+id/x_in_circle"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorText"
+                android:textSize="36sp" />
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/login_progress_bar"
+        android:layout_below="@+id/relative_layout1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+
+        />
+
+
+
+</RelativeLayout>

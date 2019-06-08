@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Clerkie</string>
+    <string name="app_title">Clerkie</string>
+
+    <!-- Network Strings -->
+    <string name="network_error">No Network Connection!!</string>
+    <string name="no_internet">Please enable Wi-Fi or mobile data to connect internet</string>
+
+    <!-- Login-->
+    <string name="login">Login</string>
+    <string name="password_hint">Password</string>
+    <string name="username_hint">Email or Phone#</string>
+    <string name="label_login">Log In</string>
+    <string name="label_forgot_password">Forgot Password?</string>
+    <string name="label_signup">Register</string>
+    <string name="login_failure">Login Credentials are Invalid!</string>
+    <string name="dialog_logout">Are you sure?</string>
+    <string name="label_reset_password">Password Reset</string>
+    <string name="send_reset_instructions">Send Email</string>
+    <string name="forgot_username_hint">Enter Email</string>
+    <string name="string_email">Email Address</string>
+    <string name="name_hint">Full Name</string>
+    <string name="empty_name">Name cannot be Empty.</string>
+    <string name="email_hint">Email Address</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_password_details">"Minimum 6 characters with atleast 1 number,
+        1 Capital Letter, 1 Small Letter, 1 Special character"</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="passwords_no_match">Passwords do not match</string>
+    <string name="invalid_phone">Invalid Phone Number </string>
+    <string name="snackbar_check_email">Check email for password reset instructions</string>
+    <string name="auth_failed">Authentication Failed. Please try again.</string>
+
+    <!--Chat-->
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="string_empty_message">Can\'t send empty message.</string>
+    <string name="text_sender">You</string>
+    <string name="label_typing">Clerkie is Typing...</string>
+
+    <!--Bar Charts-->
+
+    <string name="horizontal_bar_chart">Horizontal Bar Chart</string>
+    <string name="single_line_chart">Single Line Chart</string>
+    <string name="vertical_bar_chart">Vertical Bar Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="double_line_chart">Duo Line Chart</string>
+
+
+
+
+
+
+    <string name="registration_successful">Registration Successful.</string>
+</resources>

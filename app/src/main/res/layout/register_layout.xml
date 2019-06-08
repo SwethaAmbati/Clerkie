@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_layout_root"
+    android:layout_width="300dp"
+    android:layout_height="550dp"
+    android:layout_centerInParent="true"
+    android:background="@drawable/oval_blue">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/username_register"
+        android:hint="@string/name_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:met_textColorHint="#d3d9e2"
+        app:met_textColor="@color/colorText"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/email_register"
+        android:layout_below="@+id/username_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/email_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginLeft="20dp"
+        app:met_textColorHint="#d3d9e2"
+        app:met_textColor="@color/colorText"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/phone_register"
+        android:layout_below="@+id/email_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/phone_hint"
+        android:inputType="phone"
+        android:maxLines="1"
+        app:met_textColorHint="#d3d9e2"
+        app:met_textColor="@color/colorText"
+     />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/password_register"
+        android:layout_below="@+id/phone_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        app:met_textColorHint="#d3d9e2"
+        app:met_textColor="@color/colorText"
+       />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/confirmpassword_register"
+        android:layout_below="@+id/password_register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/confirm_password_hint"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        app:met_textColorHint="#d3d9e2"
+        app:met_textColor="@color/colorText"
+        />
+
+    <Button
+        android:id="@+id/button_register"
+        android:text="@string/label_signup"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/confirmpassword_register"
+        android:layout_marginTop="15dp"
+        android:enabled="true"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/oval_white"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

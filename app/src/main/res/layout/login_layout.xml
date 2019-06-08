@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout_root"
+    android:layout_width="300dp"
+    android:layout_height="550dp"
+    android:layout_centerInParent="true"
+    android:background="@drawable/oval_white_transparent">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/username_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:hint="@string/username_hint"
+        android:inputType="text"
+        android:maxLines="1"
+       />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/password_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_login"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:drawablePadding="4dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:maxLines="1"
+       />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password_login"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:textColor="@color/colorText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:background="@drawable/oval_blue"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:id="@+id/label_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/label_forgot_password"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="16sp"
+        />
+
+
+
+</RelativeLayout>

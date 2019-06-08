@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "720602601807",
+    "firebase_url": "https://clerkie-305ef.firebaseio.com",
+    "project_id": "clerkie-305ef",
+    "storage_bucket": "clerkie-305ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720602601807:android:6c3725a62b61f232",
+        "android_client_info": {
+          "package_name": "app.com.clerkie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720602601807-rp4pl4psma9t8pfoej1qkjqo3do2n8o2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_SmXgNW0mkgx4t9VPji3c6WZv1CnC5IU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720602601807-rp4pl4psma9t8pfoej1qkjqo3do2n8o2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
